@@ -1,0 +1,11 @@
+ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 0px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}

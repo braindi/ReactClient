@@ -1,0 +1,41 @@
+.container_card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    text-decoration: none;
+    margin: 10px;
+}
+.des_price {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-bottom: 10px;
+    padding: 13px;
+    width: 100%;
+    color: rgb(63, 63, 63);
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 340px;
+}
+
+.container_card .price {
+    font-size: 20px;
+    text-align: left;
+   
+
+}
+
+.container_card .description {
+    text-align: right;
+    margin-right: 10px;    
+}
+
+.container_card button {
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}

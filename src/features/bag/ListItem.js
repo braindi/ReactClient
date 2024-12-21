@@ -58,14 +58,12 @@ export const ListItem = ({ one, setDeleted, deleted }) => {
         }
         catch (err) {
             confirm('top-left');
-
         }
     }
     const deleteMessage = () => {
         deleteAdmin();
         toast.current.show({ severity: 'success', summary: 'מחיקה', detail: 'המוצר נמחק', life: 3000 });
     };
-
 
     const confirm2 = (event) => {
         event.preventDefault();
@@ -78,8 +76,6 @@ export const ListItem = ({ one, setDeleted, deleted }) => {
             accept: deleteMessage,
             acceptLabel: "כן",
             rejectLabel: "לא"
-
-
         });
     };
 

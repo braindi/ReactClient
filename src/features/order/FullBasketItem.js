@@ -35,7 +35,6 @@ export const FullBasketItem = ({ product }) => {
     const inc = () => {
         setCount(count + 1);
         let item = { ...product, count: count + 1 };
-        /////מוזר
         dispatch(increase(item));
     }
 
